@@ -11,7 +11,7 @@ class ModernizrCommand extends Command
 {
     /**
      * The name and signature of the console command.
-     * Usage: php artisan modernizr:generate
+     * Usage: php artisan modernizr:generate.
      *
      * @var string
      */
@@ -56,7 +56,7 @@ class ModernizrCommand extends Command
         $process->run();
 
         // Executes after the command finishes.
-        if (!$process->isSuccessful()) {
+        if (! $process->isSuccessful()) {
             throw new ProcessFailedException($process);
         }
 

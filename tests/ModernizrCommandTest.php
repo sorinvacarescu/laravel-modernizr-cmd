@@ -18,7 +18,7 @@ class ModernizrCommandTest extends TestCase
     protected function getPackageProviders($app): array
     {
         return [
-            ModernizrServiceProvider::class
+            ModernizrServiceProvider::class,
         ];
     }
 

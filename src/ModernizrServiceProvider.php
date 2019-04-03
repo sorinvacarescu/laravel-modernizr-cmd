@@ -20,14 +20,14 @@ class ModernizrServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        /**
+        /*
          * Package and Modernizr config files.
          * Publish config files: php artisan vendor:publish --provider="Hofmannsven\Modernizr\ModernizrServiceProvider"
          */
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../config/config.php' => config_path('modernizr.php'),
-                __DIR__ . '/../config/modernizr.json' => base_path('modernizr.json'),
+                __DIR__.'/../config/config.php' => config_path('modernizr.php'),
+                __DIR__.'/../config/modernizr.json' => base_path('modernizr.json'),
             ], 'config');
         }
     }
@@ -38,7 +38,7 @@ class ModernizrServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration.
-        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'laravel-modernizr-command');
+        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'laravel-modernizr-command');
 
         // Register the console commands.
         $this->commands($this->commands);
