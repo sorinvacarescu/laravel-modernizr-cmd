@@ -1,0 +1,52 @@
+{
+    "name": "hofmannsven/laravel-modernizr-command",
+    "description": "Laravel artisan console command to generate custom Modernizr builds.",
+    "keywords": [
+        "artisan",
+        "console command",
+        "modernizr"
+    ],
+    "homepage": "https://github.com/hofmannsven/laravel-modernizr-command",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sven Hofmann",
+            "email": "info@hofmannsven.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*",
+        "symfony/process": "^4.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hofmannsven\\Modernizr\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hofmannsven\\Modernizr\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hofmannsven\\Modernizr\\ModernizrServiceProvider"
+            ]
+        }
+    }
+}
