@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Hofmannsven\Modernizr\Tests;
 
 use Orchestra\Testbench\TestCase;
