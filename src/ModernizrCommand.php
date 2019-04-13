@@ -11,7 +11,6 @@ class ModernizrCommand extends Command
 {
     /**
      * The name and signature of the console command.
-     * Usage: php artisan modernizr:generate.
      *
      * @var string
      */

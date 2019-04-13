@@ -4,6 +4,7 @@
 [![Build Status](https://img.shields.io/travis/hofmannsven/laravel-modernizr-command/master.svg?style=flat-square)](https://travis-ci.org/hofmannsven/laravel-modernizr-command)
 [![Quality Score](https://img.shields.io/scrutinizer/g/hofmannsven/laravel-modernizr-command.svg?style=flat-square)](https://scrutinizer-ci.com/g/hofmannsven/laravel-modernizr-command)
 [![Total Downloads](https://img.shields.io/packagist/dt/hofmannsven/laravel-modernizr-command.svg?style=flat-square)](https://packagist.org/packages/hofmannsven/laravel-modernizr-command)
+[![GitHub license](https://img.shields.io/github/license/hofmannsven/laravel-modernizr-command.svg?style=flat-square)](https://raw.githubusercontent.com/hofmannsven/laravel-modernizr-command/master/LICENSE.md)
 
 Laravel artisan command to generate custom Modernizr builds.
 
@@ -11,30 +12,33 @@ Laravel artisan command to generate custom Modernizr builds.
 
 ## Installation
 
-You can install the package via composer:
+You can install the package via Composer:
 
 ```bash
 composer require hofmannsven/laravel-modernizr-command
 ```
 
-## Usage
+### Install Modernizr
 
-Require Modernizr as dependency in your `package.json` (see `./node_modules`):
+Require Modernizr as a dependency in your `package.json` file:
 
 ```bash
 npm i modernizr --save
 ```
 
-Publish package config files:
+### Publish the config files
+
+Publish both package config files (`config.php` and  `modernizr.json`):
 
 ```bash
 php artisan vendor:publish --provider="Hofmannsven\Modernizr\ModernizrServiceProvider"
 ```
 
-Customize the `modernizr.json`.
-https://github.com/Modernizr/Modernizr/blob/master/lib/config-all.json
-Example for SVG feature-detection:
-```
+### Customize the config files
+
+Example `modernizr.json` config file for SVG feature detection:
+
+```json
 {
   "feature-detects": [
     "svg",
@@ -43,34 +47,43 @@ Example for SVG feature-detection:
     "svg/filters",
     "svg/foreignobject",
     "svg/inline",
-    "svg/smil",
+    "svg/smil"
   ]
 }
 ```
 
-Generate your custom Modernizr build based on your `modernizr.json` config file:
+See Modernizr's [`config-all.json`](https://github.com/Modernizr/Modernizr/blob/master/lib/config-all.json) file for all detectable features.
+
+## Usage
+
+Generate your custom Modernizr build based on your `config.php` and `modernizr.json` config files:
 
 ```bash
 php artisan modernizr:generate
 ```
 
-### Testing
+## Testing
 
 ```bash
 composer test
 ```
 
-### Changelog
+## Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+Please read the [changelog](CHANGELOG.md) for more information about what has changed recently.
 
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please read the [contribution guidelines](CONTRIBUTING.md) for details.
 
-### Security
+## Support
 
-If you discover a security issue, please contact me directly via email. My GPG fingerprint/key is available on [Keybase](https://keybase.io/hofmannsven).
+Always feel free to [raise an issue](https://github.com/hofmannsven/laravel-modernizr-command/issues) on GitHub.
+
+## Security
+
+If you discover a security issue, please contact me directly. 
+My GPG fingerprint/key is available on [Keybase](https://keybase.io/hofmannsven).
 
 ## Credits
 
@@ -79,4 +92,4 @@ If you discover a security issue, please contact me directly via email. My GPG f
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+MIT License (MIT). Please read the [license](LICENSE.md) for more information.

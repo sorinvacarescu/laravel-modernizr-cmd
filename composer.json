@@ -13,9 +13,16 @@
         {
             "name": "Sven Hofmann",
             "email": "info@hofmannsven.com",
+            "homepage": "https://hofmannsven.com",
             "role": "Developer"
         }
     ],
+    "support": {
+        "email": "info@hofmannsven.com",
+        "issues": "https://github.com/hofmannsven/laravel-modernizr-command/issues",
+        "wiki": "https://github.com/hofmannsven/laravel-modernizr-command/wiki",
+        "source": "https://github.com/hofmannsven/laravel-modernizr-command"
+    },
     "require": {
         "php": "^7.1",
         "illuminate/support": "5.8.*",
