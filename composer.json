@@ -24,7 +24,7 @@
         "source": "https://github.com/hofmannsven/laravel-modernizr-command"
     },
     "require": {
-        "php": "^7.1",
+        "php": "^7.2",
         "illuminate/support": "~5.8.0|~6.0.0",
         "symfony/process": "^4.2"
     },
