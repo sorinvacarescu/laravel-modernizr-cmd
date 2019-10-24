@@ -25,11 +25,11 @@
     },
     "require": {
         "php": "^7.2",
-        "illuminate/support": "~5.8.0|~6.0.0",
+        "illuminate/support": "~5.8.0|^6.0",
         "symfony/process": "^4.2"
     },
     "require-dev": {
-        "orchestra/testbench": "3.8.*",
+        "orchestra/testbench": "~3.8.0|^4.0",
         "phpunit/phpunit": "^8.0"
     },
     "autoload": {
