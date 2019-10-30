@@ -10,6 +10,6 @@ assignees: ''
 **Describe the bug**
 Feel free to provide any kind of information you think is useful to reproduce your issue.
 
-**Steps To Reproduce**
+**Steps to reproduce the issue**
 - Package Version: #.#.#
 - PHP Version:
