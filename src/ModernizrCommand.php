@@ -6,8 +6,8 @@ namespace Hofmannsven\Modernizr;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
-use Symfony\Component\Process\Process;
 use Symfony\Component\Process\Exception\ProcessFailedException;
+use Symfony\Component\Process\Process;
 
 class ModernizrCommand extends Command
 {

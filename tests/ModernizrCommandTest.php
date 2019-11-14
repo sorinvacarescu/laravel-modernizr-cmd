@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Hofmannsven\Modernizr\Tests;
 
-use Orchestra\Testbench\TestCase;
-use Illuminate\Foundation\Application;
 use Hofmannsven\Modernizr\ModernizrServiceProvider;
+use Illuminate\Foundation\Application;
+use Orchestra\Testbench\TestCase;
 
 class ModernizrCommandTest extends TestCase
 {
