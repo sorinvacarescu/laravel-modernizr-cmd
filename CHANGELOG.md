@@ -2,6 +2,9 @@
 
 Notable changes and release notes of the _Laravel Modernizr Command_ package.
 
+## 0.4.1 / Security Patch - 2019-11-14
+- Bump version of `symfony/http-foundation` dependency.
+
 ## 0.4.0 / Semantic Versioning - 2019-10-24
 - Update dependencies to support [Laravels new versioning scheme](https://laravel.com/docs/6.x/releases#versioning-scheme).
 
