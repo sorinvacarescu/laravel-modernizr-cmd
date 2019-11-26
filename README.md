@@ -1,14 +1,12 @@
 # Laravel Modernizr Command
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/hofmannsven/laravel-modernizr-command.svg?style=flat-square)](https://packagist.org/packages/hofmannsven/laravel-modernizr-command)
-[![Build Status](https://img.shields.io/travis/hofmannsven/laravel-modernizr-command/master.svg?style=flat-square)](https://travis-ci.org/hofmannsven/laravel-modernizr-command)
-[![Quality Score](https://img.shields.io/scrutinizer/g/hofmannsven/laravel-modernizr-command.svg?style=flat-square)](https://scrutinizer-ci.com/g/hofmannsven/laravel-modernizr-command)
-[![Total Downloads](https://img.shields.io/packagist/dt/hofmannsven/laravel-modernizr-command.svg?style=flat-square)](https://packagist.org/packages/hofmannsven/laravel-modernizr-command)
-[![GitHub license](https://img.shields.io/github/license/hofmannsven/laravel-modernizr-command.svg?style=flat-square)](https://raw.githubusercontent.com/hofmannsven/laravel-modernizr-command/master/LICENSE.md)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/hofmannsven/laravel-modernizr-command.svg?labelColor=232e4a&color=55597b&style=for-the-badge)](https://packagist.org/packages/hofmannsven/laravel-modernizr-command)
+[![Build Status](https://img.shields.io/travis/hofmannsven/laravel-modernizr-command/master.svg?labelColor=232e4a&color=55597b&style=for-the-badge)](https://travis-ci.org/hofmannsven/laravel-modernizr-command)
+[![GitHub license](https://img.shields.io/github/license/hofmannsven/laravel-modernizr-command.svg?labelColor=232e4a&color=55597b&style=for-the-badge)](https://raw.githubusercontent.com/hofmannsven/laravel-modernizr-command/master/LICENSE.md)
 
 Laravel artisan command to generate custom Modernizr builds.
 
-[Modernizr](https://modernizr.com/) is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
+[Modernizr](https://modernizr.com/) is a JavaScript library that detects HTML5 and CSS3 features in the user's browser.
 
 ## Installation
 
