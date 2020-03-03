@@ -2,6 +2,9 @@
 
 Notable changes and release notes of the _Laravel Modernizr Command_ package.
 
+## 0.5.0 / Laravel 7 - 2020-03-03
+- Bump dependencies to support Laravel 7.
+
 ## 0.4.1 / Security Patch - 2019-11-14
 - Bump version of `symfony/http-foundation` dependency.
 
