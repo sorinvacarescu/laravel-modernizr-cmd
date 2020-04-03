@@ -68,11 +68,11 @@ composer test
 
 ## Changelog
 
-Please read the [changelog](CHANGELOG.md) for more information about what has changed recently.
+Please read the [changelog](https://github.com/hofmannsven/laravel-modernizr-command/blob/master/CHANGELOG.md) for more information about what has changed recently.
 
 ## Contributing
 
-Please read the [contribution guidelines](CONTRIBUTING.md) for details.
+Please read the [contribution guidelines](https://github.com/hofmannsven/laravel-modernizr-command/blob/master/CONTRIBUTING.md) for details.
 
 ## Support
 
@@ -86,7 +86,7 @@ My GPG fingerprint/key is available on [Keybase](https://keybase.io/hofmannsven)
 ## Credits
 
 - [Sven Hofmann](https://github.com/hofmannsven)
-- [All Contributors](../../contributors)
+- [All Contributors](https://github.com/hofmannsven/laravel-modernizr-command/graphs/contributors)
 
 ## License
 
