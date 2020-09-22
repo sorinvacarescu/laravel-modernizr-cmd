@@ -25,13 +25,13 @@
         "source": "https://github.com/hofmannsven/laravel-modernizr-command"
     },
     "require": {
-        "php": "^7.2",
-        "illuminate/support": "~5.8.0|^6.0|^7.0",
+        "php": "^7.3",
+        "illuminate/support": "~5.8.0|^6.0|^7.0|^8.0",
         "symfony/process": "^4.2|^5.0"
     },
     "require-dev": {
-        "orchestra/testbench": "~3.8.0|^4.0|^5.0",
-        "phpunit/phpunit": "^8.0"
+        "orchestra/testbench": "~3.8.0|^4.0|^5.0|^6.0",
+        "phpunit/phpunit": "^9.3"
     },
     "autoload": {
         "psr-4": {
