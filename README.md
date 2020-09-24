@@ -13,7 +13,7 @@ Laravel artisan command to generate custom Modernizr builds.
 You can install the package via Composer:
 
 ```bash
-composer require hofmannsven/laravel-modernizr-command
+composer require --dev hofmannsven/laravel-modernizr-command
 ```
 
 ### Install Modernizr
