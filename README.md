@@ -72,7 +72,7 @@ Please read the [changelog](https://github.com/hofmannsven/laravel-modernizr-com
 
 ## Contributing
 
-Please read the [contribution guidelines](https://github.com/hofmannsven/laravel-modernizr-command/blob/master/CONTRIBUTING.md) for details.
+Please read the [contribution guidelines](https://github.com/hofmannsven/laravel-modernizr-command/blob/master/.github/CONTRIBUTING.md) for details.
 
 ## Support
 
