@@ -2,6 +2,9 @@
 
 Notable changes and release notes of the _Laravel Modernizr Command_ package.
 
+## 0.6.3 / Security Patch - 2021-05-24
+- Bump version of `laravel/framework` dependency.
+
 ## 0.6.2 / Security Patch - 2021-02-03
 - Bump version of `laravel/framework` dependency.
 
