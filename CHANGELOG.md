@@ -2,6 +2,9 @@
 
 Notable changes and release notes of the _Laravel Modernizr Command_ package.
 
+## 0.6.4 / Security Patch - 2021-07-01
+- Bump version of `league/flysystem` dependency.
+
 ## 0.6.3 / Security Patch - 2021-05-24
 - Bump version of `laravel/framework` dependency.
 
